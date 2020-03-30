@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue|PT+Sans+Narrow|Roboto+Condensed|Roboto|Shadows+Into+Light|Spartan&display=swap');
+html {
+    font-size: 32px;
+    background-color: #f1af91;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 960px;
+    height: 2000px;
+    margin: auto;
+    margin-top: 0px;
+    /* border: black dashed; */
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    border-bottom: solid black;
+}
+
+header #logo {
+    width: 480px;
+    height: 120px;
+}
+
+header #combo_img {
+    display: flex;
+    align-items: center;
+}
+
+header #combo_img img {
+    margin: 10px 10px 0px 20px;
+    border: solid black;
+}
+
+header #combo_img h1 {
+    font-size: 1rem;
+    font-family: 'Bebas Neue';
+}
+
+p {
+    margin: 0px 0px 0px 20px;
+    font-size: .5rem;
+    font-family: 'Shadows Into Light';
+}
+
+header #menu {
+    width: 480px;
+    height: 120px;
+}
+
+nav {
+    margin: 0px;
+    height: 120px;
+}
+
+nav ul {
+    margin: 0px 0px 10px 0px;
+    height: 110px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+nav li {
+    margin-right: 15px;
+    font-family: 'PT Sans Narrow';
+    font-size: .6rem;
+}
+
+nav a {
+    color: #117215;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #760001;
+    border-bottom: 3px solid #760001;
+}
+
+#banner {
+    height: 200px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background: url('PAGINA/03.jpg') no-repeat;
+    box-shadow: 0px 4px 4px #1c1a19;
+    position: relative;
+}
+
+#container {
+    height: 50px;
+    width: 960px;
+    background-color: rgb(229, 149, 176);
+    margin: 0px;
+    padding: 0px;
+    border-radius: 0px 0px 5px 5px;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#container p {
+    color: #dde5ec;
+    font-family: 'Roboto condensed';
+}
+
+.button {
+    width: 115px;
+    height: 25px;
+    margin-right: 20px;
+    border: 1px solid #760001;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: #760001;
+    color: #dde5ec;
+    font-size: .5rem;
+    font-family: 'Roboto condensed';
+    text-align: center;
+    padding-top: 3px;
+    font-weight: 300;
+    transition: all 0.2s;
+}
+
+a.button:hover {
+    background-color: rgb(219, 87, 87);
+}
+
+a.button img {
+    margin-left: 3px;
+}
+
+#thumbnails {
+    height: 315px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: top;
+}
+.LIBRO1 {
+    width: 220px;
+    height: 300px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    background-color:rgb(250, 247, 201);
+    border: solid black 1px;
+    background: url('PAGINA/gabo.jpeg') no-repeat;
+    background-position: 10px 15px;
+    position: relative;
+}
+.LIBRO1  {background-color: rgb(198, 174, 236);}
+.LIBRO1 p {
+    position: absolute;
+    top: 120px;
+    margin: 0px 15px;
+    font-family: 'Roboto condensed';
+    font-size: .4rem;
+    text-align: justify;
+    line-height: 2;
+    color: black;
+}
+.LIBRO2 {
+    width: 220px;
+    height: 300px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    background-color:rgb(250, 247, 201);
+    border: solid black 1px;
+    background: url('PAGINA/ana frank.jpeg') no-repeat;
+    background-position: 10px 15px;
+    position: relative;
+}
+.LIBRO2 {background-color: rgb(118, 105, 238);}
+.LIBRO2 p {
+    position: absolute;
+    top: 120px;
+    margin: 0px 15px;
+    font-family: 'Roboto condensed';
+    font-size: .4rem;
+    text-align: justify;
+    line-height: 1.3;
+    color:black;
+}
+.LIBRO3{
+    width: 220px;
+    height: 300px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    background-color: rgb(118, 105, 238);
+    border: solid black 1px;
+    background: url('PAGINA/dorian grey.jpeg') no-repeat;
+    background-position: 10px 15px;
+    position: relative;
+}
+.LIBRO3 {background-color: rgb(198, 174, 236);}
+
+.LIBRO3 p {
+    position: absolute;
+    top: 120px;
+    margin: 0px 15px;
+    font-family: 'Roboto condensed';
+    font-size: .4rem;
+    text-align: justify;
+    line-height: 1.6;
+    color: black;
+}
+.LIBRO4 {
+    width: 220px;
+    height: 300px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    background-color: rgb(118, 105, 238);
+    border: solid black 1px;
+    background: url('PAGINA/el principito.jpeg') no-repeat;
+    background-position: 10px 15px;
+    position: relative;
+}
+.LIBRO4  {background-color: rgb(118, 105, 238);}
+
+.LIBRO4  p {
+    position: absolute;
+    top: 120px;
+    margin: 0px 15px;
+    font-family: 'Roboto condensed';
+    font-size: .4rem;
+    text-align: justify;
+    line-height: 1.3;
+    color: black;
+}
+footer {
+    margin: 0px 0px 10px 0px;
+    width: 960px;
+    height: 220px;
+    position: relative;
+}
+
+#Milibrofavorito {
+    width: 400px;
+    height: 198px;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+footer #Milibrofavorito div {
+    margin-left: 20px;
+    display: flex;
+    color: black;
+    font-weight: 300;
+    align-items: center;
+}
+#Librotexto{
+    width: 50%;
+    height: 200px;
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    line-height: 1.9;
+}
+#Librotexto {background-color: rgb(180, 156, 218);}
+footer #Librotexto p {
+    margin: 0;
+    color: black;
+    font-family: 'Roboto condensed';
+}
+
+
+#contacto {
+    width: 480px;
+    height: 200px;
+}
+
+#contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+footer #contacto div {
+    margin-left: 20px;
+    display: flex;
+    color: #000000;
+    font-weight: 300;
+    align-items: center;
+}
+
+#acerca {
+    width: 30%;
+    height: 200px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    display: flex;
+    font-family: 'Roboto condensed';
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer #acerca h3 {
+    margin: 0px 0px 10px 0px;
+    font-size: .7rem;
+    color: #000000;
+    font-family: 'Roboto condensed';
+}
+
+footer #acerca p {
+    margin: 0;
+    color: #000000;
+}
+
+.redes {
+    margin: 10px 0px 0px 0px;
+    display: flex;
+    justify-content: start;
+}
+
+.redes img {
+    margin-left: 10px;
+}
